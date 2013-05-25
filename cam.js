@@ -78,7 +78,7 @@ camera = function() {
 
             case "hulk":
             case "retro":
-                var degree = (filter == 'hulk' ? 140 : 270);
+                var degree = (filter == 'hulk' ? 270 : 140);
                 
                 var U = Math.cos(degree * Math.PI / 180);
                 var W = Math.sin(degree * Math.PI / 180);
