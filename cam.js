@@ -58,8 +58,6 @@ camera = function() {
         canvas.height = height;
         var ctx = canvas.getContext('2d');
         ctx.drawImage(video, 0, 0, width, height);
-        console.log(width);
-        console.log(height);
         var img = ctx.getImageData(0, 0, width, height);
         var pixels = img.data;
         var filter = $("#filter :radio:checked").attr('id')
